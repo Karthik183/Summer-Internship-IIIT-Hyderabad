@@ -12,5 +12,7 @@ if [ -L tangle-make ]; then
     echo "symlinked makefile already present"
 else 
     ln -sf literate-tools/makefile tangle-make
+    
+    
 fi
 

@@ -1,0 +1,33 @@
+#+TITLE: Sitemap for project org-docs
+
+   + imp
+     + spec
+       + [[file:imp/spec/index.org][Specifications of Virtual Labs cluster automation]]
+     + [[file:imp/ads.org][ADS setup]]
+     + [[file:imp/ansible-server.org][Ansible-server]]
+     + [[file:imp/common-vars.org][Common Vars Role]]
+     + [[file:imp/create-cluster-containers.org][Create cluster containers]]
+     + [[file:imp/index.org][Implementation of automating the cluster creation]]
+     + [[file:imp/base-setup.org][Implementation of base machine setup]]
+     + [[file:imp/main.org][Main setup files]]
+     + [[file:imp/nagios.org][Nagios]]
+     + [[file:imp/ossec-server.org][Ossec server]]
+     + [[file:imp/private-dns.org][Private DNS server]]
+     + [[file:imp/public-dns.org][Public DNS server]]
+     + [[file:imp/reverse-proxy-awstats.org][Reverse-proxy and AWStasts]]
+     + [[file:imp/router.org][Router]]
+     + [[file:imp/rsnapshot-server.org][Rsnapshot]]
+     + [[file:imp/rsyslog-server.org][Rsyslog Server]]
+     + [[file:imp/copy-ssh-keys-to-config-server.org][copy-ssh-keys-to-config-server]]
+     + [[file:imp/hosts.org][hosts]]
+     + [[file:imp/troubleshoot.org][troubleshoot]]
+   + org-templates
+     + [[file:org-templates/level-0.org][level-0]]
+     + [[file:org-templates/level-1.org][level-1]]
+     + [[file:org-templates/level-2.org][level-2]]
+     + [[file:org-templates/level-3.org][level-3]]
+   + req
+     + [[file:req/index.org][Requirements of automating the cluster creation]]
+   + [[file:bootstrapping.org][Bootstrapping steps]]
+   + [[file:index.org][Virtual Labs Cluster Automation]]
+   + [[file:cluster-steps.org][cluster-steps]]

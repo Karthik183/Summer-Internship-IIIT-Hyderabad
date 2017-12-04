@@ -1,0 +1,62 @@
+% Created 2017-10-24 Tue 14:39
+\documentclass[11pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{soul}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\tolerance=1000
+\providecommand{\alert}[1]{\textbf{#1}}
+
+\title{Implementation of automating the cluster creation}
+\author{Sunandan}
+\date{\today}
+\hypersetup{
+  pdfkeywords={},
+  pdfsubject={},
+  pdfcreator={Emacs Org-mode version 7.9.3f}}
+
+\begin{document}
+
+\maketitle
+
+\setcounter{tocdepth}{3}
+\tableofcontents
+\vspace*{1cm}
+
+\section{Introduction}
+\label{sec-1}
+
+  This document contains the step by step implementation of entire automation of cluster
+  creation.
+\section{Implementation}
+\label{sec-2}
+
+\begin{itemize}
+\item \href{file:///home/sunandan/Desktop/internship/cluster-automation/src/imp/spec/index.org}{Cluster Specifications}
+\item \href{file:///home/sunandan/Desktop/internship/cluster-automation/src/imp/base-setup.org}{Base machine setup}
+\item \href{file:///home/sunandan/Desktop/internship/cluster-automation/src/imp/create-cluster-containers.org}{Create cluster containers}
+\item \href{file:///home/sunandan/Desktop/internship/cluster-automation/src/imp/router.org}{Router}
+\item \href{file:///home/sunandan/Desktop/internship/cluster-automation/src/imp/ansible-server.org}{Ansible-server}
+\item \href{file:///home/sunandan/Desktop/internship/cluster-automation/src/imp/ossec-server.org}{ossec-server}
+\item \href{file:///home/sunandan/Desktop/internship/cluster-automation/src/imp/rsyslog-server.org}{rsyslog-server}
+\item \href{file:///home/sunandan/Desktop/internship/cluster-automation/src/imp/private-dns.org}{private-dns}
+\item \href{file:///home/sunandan/Desktop/internship/cluster-automation/src/imp/public-dns.org}{public-dns}
+\item \href{file:///home/sunandan/Desktop/internship/cluster-automation/src/imp/reverse-proxy-awstats.org}{Reverse-proxy}
+\item \href{file:///home/sunandan/Desktop/internship/cluster-automation/src/imp/nagios.org}{nagios}
+\item \href{file:///home/sunandan/Desktop/internship/cluster-automation/src/imp/rsnapshot-server.org}{rsnapshot}
+\item \href{file:///home/sunandan/Desktop/internship/cluster-automation/src/imp/ads.org}{ADS service}
+\item \href{file:///home/sunandan/Desktop/internship/cluster-automation/src/imp/main.org}{Main playbook}
+\item \href{file:///home/sunandan/Desktop/internship/cluster-automation/src/imp/common-vars.org}{Common variables for this project}
+\end{itemize}
+
+\end{document}
